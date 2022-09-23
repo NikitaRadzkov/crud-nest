@@ -21,7 +21,6 @@ import { User } from './users/users.model';
       models: [User],
       autoLoadModels: true,
       synchronize: true,
-      logQueryParameters: true,
     }),
     UsersModule,
   ],

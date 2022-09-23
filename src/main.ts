@@ -10,7 +10,7 @@ async function bootstrap() {
     .setTitle('NestJS CRUD')
     .setDescription('Documentation for REST API')
     .setVersion('1.0.0')
-    .addTag('Mikita Radzkou')
+    .addTag('Nest crud application')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
